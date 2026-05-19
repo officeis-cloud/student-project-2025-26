@@ -1,0 +1,19 @@
+# Training Requirements
+# Additional packages needed for model training
+
+# Core training packages
+datasets==2.16.0
+accelerate==0.24.0
+evaluate==0.4.0
+pyarrow==14.0.1
+fsspec==2023.10.0
+
+# Visualization
+matplotlib==3.8.0
+seaborn==0.13.0
+
+# Already in main requirements but needed for training
+torch==2.1.0
+transformers==4.36.0
+scikit-learn==1.3.2
+numpy==1.26.2

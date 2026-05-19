@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files and checkpoints (too large for GitHub)
+backend/models/distilbert-goemotions-mental/checkpoint-*/
+backend/models/distilbert-goemotions-mental/**/*.safetensors
+backend/models/distilbert-goemotions-mental/**/*.bin
+backend/models/distilbert-goemotions-mental/**/*.pt
+backend/models/distilbert-goemotions-mental/**/*.pth
+
+# Keep only config and tokenizer files
+!backend/models/distilbert-goemotions-mental/config.json
+!backend/models/distilbert-goemotions-mental/tokenizer.json
+!backend/models/distilbert-goemotions-mental/tokenizer_config.json
+!backend/models/distilbert-goemotions-mental/special_tokens_map.json
+!backend/models/distilbert-goemotions-mental/vocab.txt
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

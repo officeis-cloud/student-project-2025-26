@@ -1,0 +1,9 @@
+{
+  "model_name": "distilbert-base-uncased",
+  "quick_training": true,
+  "test_results": {
+    "micro_f1": 0.0,
+    "macro_f1": 0.0,
+    "exact_match": 0.0
+  }
+}
